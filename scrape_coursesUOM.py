@@ -136,6 +136,7 @@ postGradprog = hometree.xpath(' //*[@id="block-menuforeducation2"]/div/div/ul/li
 print(postGrad)
 for pg,pl in itertools.zip_longest(postGrad,postGradlink):
   f.write(pg+"\t"+pl+"\n")
+
 print(postGradprog)
 for pp in postGradprog:
   f.write("\t%s" % pp)
@@ -183,7 +184,6 @@ for fn,fl in  itertools.zip_longest(facultynames,facultylinks):
   f.write("\t"+fn+"\t"+fl+"\n")
 ##########################################################################
 
-  
-  
+        
 #closing the text file
 f.close()
