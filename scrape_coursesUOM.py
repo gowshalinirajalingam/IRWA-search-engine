@@ -1,21 +1,31 @@
-
-
 #writing cources in UOM
 from lxml import html
 import requests
 from urllib.request import Request, urlopen
 import itertools
+import csv
+
+
+#Courses in university of moratuwa
+
 #urls of multiplepages
 urls = ['https://www.mrt.ac.lk/web/courses?field_course_tags_target_id&page=0', 
         'https://www.mrt.ac.lk/web/courses?field_course_tags_target_id&page=1',
         'https://www.mrt.ac.lk/web/courses?field_course_tags_target_id&page=2',
         'https://www.mrt.ac.lk/web/courses?field_course_tags_target_id&page=3',
         'https://www.mrt.ac.lk/web/courses?field_course_tags_target_id&page=4']
-#opening the text file     
-f=open('UOM.txt','w') 
-#writing in test file 
-f.write("Courses in university of moratuwa\n")
-f.write("-----------------------------------\n")
+
+
+#write in a csv file
+download_dir = "C:\\Users\\Gowshalini\\Desktop\\courses in UOM.csv" #where you want the file to be downloaded to 
+
+csv = open(download_dir, "w") 
+#"w" indicates that you're writing strings to the file
+
+columnTitleRow = "Cource Name,Course url\n"
+csv.write(columnTitleRow)
+
+
 
 #looping through multiple pages
 for url in urls:
@@ -29,46 +39,14 @@ for url in urls:
    print (courselink)
 #printing the elements in the list 
    for cn,cl in itertools.zip_longest(coursename,courselink):
-       f.write(cn+"\t"+cl+"\n")
-    
+        cn=str(cn).replace(","," ")      # as csv is a coma delemeted if there is a comma in the text it is delemeting that text by the comma and storing in ceperate colums.so convering lxml.etree._ElementUnicodeResult type to string and replacing comma by " "
+        row=cn+","+"https://www.mrt.ac.lk"+cl+"\n"
+        csv.write(row)
+csv.close()
 ################################################################################
 
 
-#programs in UOM
-homeurl = 'https://www.mrt.ac.lk/web/'
-     
-f.write("\nprograms in university of moratuwa\n")
-f.write("-----------------------------------\n")
 
-
-page = requests.get(homeurl, headers={'User-Agent': 'Mozilla/5.0'})
-hometree = html.fromstring(page.content)
-
-#Academic
-Academic = hometree.xpath(' //*[@id="block-menuforeducation1"]/div/div/ul/li[1]/strong/a/text()')
-AcademicProgram = hometree.xpath(' //*[@id="block-menuforeducation1"]/div/div/ul/li[1]/ul/li/a/text()')
-print(Academic)
-for ac in Academic:
-  f.write("%s\n" % ac)
-
-print(AcademicProgram)
-for ap in AcademicProgram:
-    f.write("\t%s\n" % ap)
-    if ap=='Undergraduate Degrees':
-        url = 'https://www.mrt.ac.lk/web/education/degrees/undergraduate'
-        page = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
-        tree = html.fromstring(page.content)
-        undergraduatedegrees = tree.xpath(' //*[@id="block-scholarly-content"]/div/article/div/div/div/table/tbody/tr/td/a/span/text()')
-        ugdegreelinks=tree.xpath('//*[@id="block-scholarly-content"]/div/article/div/div/div/table/tbody/tr/td/a/@href')
-        print(undergraduatedegrees)
-        print (ugdegreelinks)
-        for ud,ul in itertools.zip_longest(undergraduatedegrees,ugdegreelinks):
-          f.write("\t\t"+ud+"\t"+ul+"\n")
-#    if ap=='Postgraduate Degrees':
-#         #Details are in uom_postgraduate_degree.csv file
-#    if ap=='Postgraduate Diplomas':
-#         #Details are in uom_postgraduatediploma.csv file  
-#    
 
 
 #international studies
@@ -187,3 +165,9 @@ for fn,fl in  itertools.zip_longest(facultynames,facultylinks):
         
 #closing the text file
 f.close()
+
+
+
+dic = {"John": "john@example.com", "Mary": "mary@example.com"} #dictionary
+
+
