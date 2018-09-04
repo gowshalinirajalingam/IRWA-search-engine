@@ -1,62 +1,106 @@
 program Catagory,program Type,program type link,Degree Name,degree url
-Acadamic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Architecture,https://www.mrt.ac.lk/web/archi/programs_ar
-Acadamic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Design,https://www.mrt.ac.lk/web/design/courses/honours-degree-b-des
-Acadamic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Design in Fashion Design & Product Development,https://www.mrt.ac.lk/web/design/courses/honours-degree-b-des
-Acadamic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Science in Facilities Management,http://becon.mrt.ac.lk/index.php/programmes/undergraduate-programmes/bsc-in-fm
-Acadamic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Science in Information Technology,https://www.mrt.ac.lk/web/itfac/education/undergraduate/it
-Acadamic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Science in Information Technology & Management,https://www.mrt.ac.lk/web/itfac/education/undergraduate/it-managemant
-Acadamic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Science in Quantity Surveying,http://www.becon.mrt.ac.lk/index.php/programmes/undergraduate-programmes/bsc-in-qs
-Acadamic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Science in Town & Country Planning,http://www.mrt.ac.lk/tcp/?page_id=237
-Acadamic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Science in Transport & Logistics Management,http://www.tlm.mrt.ac.lk/en/undergraduate_program.php
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science (MSc),  
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Philosophy (M.Phil),  
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Doctor of Philosophy (Ph.D),  
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Urban Design,https://www.mrt.ac.lk/web/msc-pg-diploma-urban-design
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Architecture,  
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Architectural Conservation of Monuments and Sites,https://www.mrt.ac.lk/web/msc-pg-diploma-architectural-conservation-monuments-and-sites-acomas
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Landscape Design,https://www.mrt.ac.lk/web/msc-pg-diploma-landscape-design
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Interior Design,https://www.mrt.ac.lk/web/msc-pg-diploma-interior-design
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Project Management,https://www.mrt.ac.lkhttp://becon.mrt.ac.lk/index.php/programmes/postgraduate-studies/m-sc-in-project-management
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Construction Law and Dispute Resolution,https://www.mrt.ac.lkhttp://becon.mrt.ac.lk/index.php/programmes/postgraduate-studies/m-sc-in-construction-law-and-dispute-resolution
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Town & Country Planning,  
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Spatial Planning Management & Design,https://www.mrt.ac.lk/web/msc-spatial-planning-management-and-design
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Engineering,  
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Polymer Technology,https://www.mrt.ac.lk/web/msc-pg-diploma-polymer-technology
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Masters of Science in Sustainable Process Development,https://www.mrt.ac.lk/web/msc-pg-diploma-sustainable-process
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Construction Project Management,https://www.mrt.ac.lk/web/meng-pg-diploma-construction-project-management
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Environmental Engineering & Management,https://www.mrt.ac.lk/web/msc-pg-diploma-environmental-engineering-and-management
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Environmental Management,https://www.mrt.ac.lk/web/msc-pg-diploma-environmental-management
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Water Resources Engineering & Management,https://www.mrt.ac.lk/web/meng-pg-diploma-water-resources-engineering-and-management
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Engineering in Foundation Engineering & Earth Retaining Systems,https://www.mrt.ac.lk/web/meng-pg-diploma-foundation-engineering-and-earth-retaining-systems
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Engineering in Highway & Traffic Engineering,https://www.mrt.ac.lk/web/meng-pg-diploma-highway-and-traffi-c-engineering
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Engineering in Structural Engineering Design,https://www.mrt.ac.lk/web/meng-pg-diploma-structural-engineering-design
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Transportation,https://www.mrt.ac.lk/web/msc-pg-diploma-transportation
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Business Administration in Infrastructure,  
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Business Administration in Project Management,https://www.mrt.ac.lk/web/mba-pg-diploma-project-management
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Computer Science,https://www.mrt.ac.lk/web/msc-pg-diploma-computer-science
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Business Administration in Information Technology,https://www.mrt.ac.lk/web/mba-pg-diploma-information-technology
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Business Administration in e-Governance,https://www.mrt.ac.lk/web/mba-pg-diploma-e-governance
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Remote Sensing & Geographical Information Systems,https://www.mrt.ac.lk/web/msc-pg-diploma-remote-sensing-and-gis
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Mining and Mineral Exploration,  
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Gemmology,  
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Gemmology,  
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Electrical Engineering,https://www.mrt.ac.lk/web/msc-pg-diploma-electrical-engineering
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Electrical Installations,https://www.mrt.ac.lk/web/msc-pg-diploma-electrical-installation
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Industrial Automation,https://www.mrt.ac.lk/web/msc-pg-diploma-industrial-automation
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Electronics & Telecommunication Engineering (not currently conducted),  
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Telecommunications,https://www.mrt.ac.lk/web/msc-pg-diploma-telecommunication
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Electronics & Automation,https://www.mrt.ac.lk/web/msc-pg-diploma-electronics-and-automation
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Business Administration in Management of Technology,https://www.mrt.ac.lk/web/mba-pg-diploma-management-technology
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Business Administration in Entrepreneurship,https://www.mrt.ac.lk/web/mbapg-diploma-entrepreneurship
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Materials Science,https://www.mrt.ac.lk/web/msc-pg-diploma-materials-science
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Operational Research,https://www.mrt.ac.lk/web/msc-pg-diploma-operational-research
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Financial Mathematics,https://www.mrt.ac.lk/web/msc-pg-diploma-financial-mathematics
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Business Statistics,https://www.mrt.ac.lk/web/msc-pg-diploma-business-statistics
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Engineering in Manufacturing Systems Engineering,https://www.mrt.ac.lk/web/meng-pg-diploma-manufacturing-systems-engineering
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Engineering in Energy Technology,https://www.mrt.ac.lk/web/meng-pg-diploma-energy-technology
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Building Services Engineering,https://www.mrt.ac.lk/web/msc-pg-diploma-building-services-engineering
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Textile & Clothing Management,https://www.mrt.ac.lk/web/msc-pg-diploma-textile-and-clothing-management
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Supply Chain Management,https://www.mrt.ac.lkhttp://www.tlm.mrt.ac.lk/en/mba
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Artificial Intelligence,https://www.mrt.ac.lk/web/msc-pg-diploma-artificial-intelligence
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Information Technology,https://www.mrt.ac.lk/web/msc-pg-diploma-information-technology
-Acadamic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Multimedia Technologies,  
+Academic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Architecture,https://www.mrt.ac.lk/web/archi/programs_ar
+Academic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Design,https://www.mrt.ac.lk/web/design/courses/honours-degree-b-des
+Academic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Design in Fashion Design & Product Development,https://www.mrt.ac.lk/web/design/courses/honours-degree-b-des
+Academic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Science in Facilities Management,http://becon.mrt.ac.lk/index.php/programmes/undergraduate-programmes/bsc-in-fm
+Academic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Science in Information Technology,https://www.mrt.ac.lk/web/itfac/education/undergraduate/it
+Academic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Science in Information Technology & Management,https://www.mrt.ac.lk/web/itfac/education/undergraduate/it-managemant
+Academic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Science in Quantity Surveying,http://www.becon.mrt.ac.lk/index.php/programmes/undergraduate-programmes/bsc-in-qs
+Academic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Science in Town & Country Planning,http://www.mrt.ac.lk/tcp/?page_id=237
+Academic,Undergraduate,https://www.mrt.ac.lk/web/education/degrees/undergraduate,Honours Degree of Bachelor of Science in Transport & Logistics Management,http://www.tlm.mrt.ac.lk/en/undergraduate_program.php
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science (MSc),  
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Philosophy (M.Phil),  
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Doctor of Philosophy (Ph.D),  
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Urban Design,https://www.mrt.ac.lk/web/msc-pg-diploma-urban-design
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Architecture,  
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Architectural Conservation of Monuments and Sites,https://www.mrt.ac.lk/web/msc-pg-diploma-architectural-conservation-monuments-and-sites-acomas
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Landscape Design,https://www.mrt.ac.lk/web/msc-pg-diploma-landscape-design
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Interior Design,https://www.mrt.ac.lk/web/msc-pg-diploma-interior-design
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Project Management,https://www.mrt.ac.lkhttp://becon.mrt.ac.lk/index.php/programmes/postgraduate-studies/m-sc-in-project-management
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Construction Law and Dispute Resolution,https://www.mrt.ac.lkhttp://becon.mrt.ac.lk/index.php/programmes/postgraduate-studies/m-sc-in-construction-law-and-dispute-resolution
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Town & Country Planning,  
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Spatial Planning Management & Design,https://www.mrt.ac.lk/web/msc-spatial-planning-management-and-design
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Engineering,  
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Polymer Technology,https://www.mrt.ac.lk/web/msc-pg-diploma-polymer-technology
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Masters of Science in Sustainable Process Development,https://www.mrt.ac.lk/web/msc-pg-diploma-sustainable-process
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Construction Project Management,https://www.mrt.ac.lk/web/meng-pg-diploma-construction-project-management
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Environmental Engineering & Management,https://www.mrt.ac.lk/web/msc-pg-diploma-environmental-engineering-and-management
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Environmental Management,https://www.mrt.ac.lk/web/msc-pg-diploma-environmental-management
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Water Resources Engineering & Management,https://www.mrt.ac.lk/web/meng-pg-diploma-water-resources-engineering-and-management
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Engineering in Foundation Engineering & Earth Retaining Systems,https://www.mrt.ac.lk/web/meng-pg-diploma-foundation-engineering-and-earth-retaining-systems
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Engineering in Highway & Traffic Engineering,https://www.mrt.ac.lk/web/meng-pg-diploma-highway-and-traffi-c-engineering
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Engineering in Structural Engineering Design,https://www.mrt.ac.lk/web/meng-pg-diploma-structural-engineering-design
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Transportation,https://www.mrt.ac.lk/web/msc-pg-diploma-transportation
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Business Administration in Infrastructure,  
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Business Administration in Project Management,https://www.mrt.ac.lk/web/mba-pg-diploma-project-management
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Computer Science,https://www.mrt.ac.lk/web/msc-pg-diploma-computer-science
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Business Administration in Information Technology,https://www.mrt.ac.lk/web/mba-pg-diploma-information-technology
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Business Administration in e-Governance,https://www.mrt.ac.lk/web/mba-pg-diploma-e-governance
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Remote Sensing & Geographical Information Systems,https://www.mrt.ac.lk/web/msc-pg-diploma-remote-sensing-and-gis
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Mining and Mineral Exploration,  
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Gemmology,  
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Gemmology,  
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Electrical Engineering,https://www.mrt.ac.lk/web/msc-pg-diploma-electrical-engineering
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Electrical Installations,https://www.mrt.ac.lk/web/msc-pg-diploma-electrical-installation
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Industrial Automation,https://www.mrt.ac.lk/web/msc-pg-diploma-industrial-automation
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Electronics & Telecommunication Engineering (not currently conducted),  
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Telecommunications,https://www.mrt.ac.lk/web/msc-pg-diploma-telecommunication
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Electronics & Automation,https://www.mrt.ac.lk/web/msc-pg-diploma-electronics-and-automation
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Business Administration in Management of Technology,https://www.mrt.ac.lk/web/mba-pg-diploma-management-technology
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Business Administration in Entrepreneurship,https://www.mrt.ac.lk/web/mbapg-diploma-entrepreneurship
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Materials Science,https://www.mrt.ac.lk/web/msc-pg-diploma-materials-science
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Operational Research,https://www.mrt.ac.lk/web/msc-pg-diploma-operational-research
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Financial Mathematics,https://www.mrt.ac.lk/web/msc-pg-diploma-financial-mathematics
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Business Statistics,https://www.mrt.ac.lk/web/msc-pg-diploma-business-statistics
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Engineering in Manufacturing Systems Engineering,https://www.mrt.ac.lk/web/meng-pg-diploma-manufacturing-systems-engineering
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Engineering in Energy Technology,https://www.mrt.ac.lk/web/meng-pg-diploma-energy-technology
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Building Services Engineering,https://www.mrt.ac.lk/web/msc-pg-diploma-building-services-engineering
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Textile & Clothing Management,https://www.mrt.ac.lk/web/msc-pg-diploma-textile-and-clothing-management
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Supply Chain Management,https://www.mrt.ac.lkhttp://www.tlm.mrt.ac.lk/en/mba
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Artificial Intelligence,https://www.mrt.ac.lk/web/msc-pg-diploma-artificial-intelligence
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Information Technology,https://www.mrt.ac.lk/web/msc-pg-diploma-information-technology
+Academic,Postgraduate Degree,https://www.mrt.ac.lk/web/postgraduate-degrees,Degree of Master of Science in Multimedia Technologies,  
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diplomas | University of Moratuwa,  
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diplomas,https://www.mrt.ac.lk/web/postgraduate-diplomas
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diplomas,  
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Urban Design,https://www.mrt.ac.lk/web/msc-pg-diploma-urban-design
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Architectural Conservation of Monuments and Sites,https://www.mrt.ac.lk/web/msc-pg-diploma-architectural-conservation-monuments-and-sites-acomas
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Landscape Design,https://www.mrt.ac.lk/web/msc-pg-diploma-landscape-design
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,(This programme is pending approval of the UGC) Postgraduate Diploma in Interior Design,https://www.mrt.ac.lk/web/msc-pg-diploma-interior-design
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Project Management,https://www.mrt.ac.lkhttp://www.becon.mrt.ac.lk/index.php/programmes/postgraduate-studies/m-sc-in-project-management
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Construction Law and Dispute Resolution,https://www.mrt.ac.lkhttp://becon.mrt.ac.lk/index.php/programmes/postgraduate-studies/m-sc-in-construction-law-and-dispute-resolution
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Department of Towna and Country Planning,https://www.mrt.ac.lk/web/msc-spatial-planning-management-and-design
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,(This programme is pending approval of the UGC) Postgraduate Diploma in Spatial Planning Management & Design ,https://www.mrt.ac.lk/web/msc-spatial-planning-management-and-design
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Polymer Technology,https://www.mrt.ac.lk/web/msc-pg-diploma-polymer-technology
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Sustainable Process Development,https://www.mrt.ac.lk/web/msc-pg-diploma-sustainable-process
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Construction Project Management,https://www.mrt.ac.lk/web/mba-pg-diploma-project-management
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Environmental Engineering & Management,https://www.mrt.ac.lk/web/msc-pg-diploma-environmental-engineering-and-management
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Environmental Management,https://www.mrt.ac.lk/web/msc-pg-diploma-environmental-management
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Environmental Water Resources Engineering & Management,https://www.mrt.ac.lk/web/meng-pg-diploma-water-resources-engineering-and-management
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Foundation Engineering & Earth  Retaining Systems,https://www.mrt.ac.lk/web/meng-pg-diploma-foundation-engineering-and-earth-retaining-systems
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Highway & Traffic Engineering,https://www.mrt.ac.lk/web/meng-pg-diploma-highway-and-traffi-c-engineering
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Structural Engineering Design,https://www.mrt.ac.lk/web/meng-pg-diploma-structural-engineering-design
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Transportation,https://www.mrt.ac.lk/web/msc-pg-diploma-transportation
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Business Administration Specialised in Infrastructure,  
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Business Administration Specialised in Project Management,  
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Computer Science,https://www.mrt.ac.lk/web/msc-pg-diploma-computer-science
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Business Administration Specialised in Information Technology,  
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Business Administration Specialised in e-Governance,https://www.mrt.ac.lk/web/mba-pg-diploma-e-governance
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma  in Remote Sensing & Geographical Information Systems,https://www.mrt.ac.lk/web/msc-pg-diploma-remote-sensing-and-gis
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Mining and Mineral Exploration,  
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Gemmology,  
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Electrical Engineering,https://www.mrt.ac.lk/web/msc-pg-diploma-electrical-engineering
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Electrical Installations,https://www.mrt.ac.lk/web/msc-pg-diploma-electrical-installation
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Electronics & Automation,https://www.mrt.ac.lk/web/msc-pg-diploma-electronics-and-automation
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Business Administration Specialised in Management of Technology,https://www.mrt.ac.lk/web/mba-pg-diploma-management-technology
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Business Administration Specialised in Entrepreneurship,https://www.mrt.ac.lk/web/mbapg-diploma-entrepreneurship
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Materials Science,https://www.mrt.ac.lk/web/msc-pg-diploma-materials-science
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Operational Research,https://www.mrt.ac.lk/web/msc-pg-diploma-operational-research
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Financial Mathematics,https://www.mrt.ac.lk/web/msc-pg-diploma-financial-mathematics
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Business Statistics,https://www.mrt.ac.lk/web/msc-pg-diploma-business-statistics
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Manufacturing Systems Engineering,https://www.mrt.ac.lk/web/meng-pg-diploma-manufacturing-systems-engineering
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Energy Technology,https://www.mrt.ac.lk/web/meng-pg-diploma-energy-technology
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Textile & Clothing Management,https://www.mrt.ac.lk/web/msc-pg-diploma-textile-and-clothing-management
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Artificial Intelligence,https://www.mrt.ac.lk/web/msc-pg-diploma-artificial-intelligence
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Information Technology,https://www.mrt.ac.lk/web/msc-pg-diploma-information-technology
+Academic,Postgraduate Diploma,https://www.mrt.ac.lk/web/postgraduate-diplomas,Postgraduate Diploma in Multimedia Technologies,  
