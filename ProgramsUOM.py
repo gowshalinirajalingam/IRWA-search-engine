@@ -1,3 +1,10 @@
+from lxml import html
+import requests
+from urllib.request import Request, urlopen
+import itertools
+import csv
+
+
 #programs in UOM
 homeurl = 'https://www.mrt.ac.lk/web/'
 
@@ -26,7 +33,6 @@ for ap in AcademicProgram:
         undergraduatedegrees = tree.xpath(' //*[@id="block-scholarly-content"]/div/article/div/div/div/table/tbody/tr/td/a/span/text()')
         ugdegreelinks=tree.xpath('//*[@id="block-scholarly-content"]/div/article/div/div/div/table/tbody/tr/td/a/@href')
         for ud,ul in itertools.zip_longest(undergraduatedegrees,ugdegreelinks):
-          print(ul)
           if not str(ul).startswith("http"):
               row="Acadamic,Undergraduate,"+"https://www.mrt.ac.lk"+AcademicProgramlink[0]+","+ud+","+"https://www.mrt.ac.lk"+ul+"\n"
               csv.write(row)
@@ -53,6 +59,22 @@ for ap in AcademicProgram:
               row="Acadamic,Postgraduate Degree,"+"https://www.mrt.ac.lk"+AcademicProgramlink[1]+","+pgcourse[0]+",  \n"
               csv.write(row)
               
-#    if ap=='Postgraduate Diplomas':
-#         #Details are in uom_postgraduatediploma.csv file  
+    if ap=='Postgraduate Diplomas':
+        url="https://www.mrt.ac.lk/web/postgraduate-diplomas"
+        page = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
+        tree = html.fromstring(page.content)
+        postgraduatediploma=tree.xpath('//*[contains(text(),"Diploma")]')
+        for pg in postgraduate:
+          pdcourse= pg.xpath('.//text()')
+          pdlink=pg.xpath('.//@href')
+          
+          if len(pdlink)==1 and not str(pdlink).startswith('http') :
+              row="Acadamic,Postgraduate Diploma,"+"https://www.mrt.ac.lk"+AcademicProgramlink[1]+","+pdcourse[0]+","+"https://www.mrt.ac.lk"+pdlink[0]+"\n"
+              csv.write(row)
+          elif len(pdlink)==1 and not str(pdlink).startswith('http'): 
+              row="Acadamic,Postgraduate Diploma,"+"https://www.mrt.ac.lk"+AcademicProgramlink[1]+","+pdcourse[0]+","+pdlink[0]+"\n"
+              csv.write(row)
+          else:
+              row="Acadamic,Postgraduate Diploma,"+"https://www.mrt.ac.lk"+AcademicProgramlink[1]+","+pdcourse[0]+",  \n"
+              csv.write(row)
 csv.close()
