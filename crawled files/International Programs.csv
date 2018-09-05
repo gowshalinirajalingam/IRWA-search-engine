@@ -1,7 +1,2 @@
-program Catagory,program Type,program type link,faulty name,url,contact person,email,tel
-International,undergraduate,https://www.mrt.ac.lk/web/contacts-undergraduate-studies,Faculty of Engineering,https://www.mrt.ac.lk/web/efac/,Director Undergraduate Studies,dugs-eng [at] uom.lk,+94 112 640 305
-International,undergraduate,https://www.mrt.ac.lk/web/contacts-undergraduate-studies,Faculty of Architecture,https://www.mrt.ac.lk/web/foa/,Director Undergraduate Studies,dugs-archi [at] uom.lk,+94 112 650 301 - Ext. 7008
-International,undergraduate,https://www.mrt.ac.lk/web/contacts-undergraduate-studies,Faculty of Information Technology,https://www.mrt.ac.lk/web/itfac/,Director Undergraduate Studies,dugs-it [at] uom.lk,+94 112 650 301 - Ext. 8021
-International,postgraduate,https://www.mrt.ac.lk/web/contacts-postgraduate-studies,Faculty of Engineering,https://www.mrt.ac.lk/web/efac/,Director Postgraduate Studies,dpgs-eng [at] uom.lk,+94 112 650 283
-International,postgraduate,https://www.mrt.ac.lk/web/contacts-postgraduate-studies,Faculty of Architecture,https://www.mrt.ac.lk/web/foa/,Director Postgraduate Studies,dpgs-archi [at] uom.lk,+94 112 650301 - Ext. 7131
-International,postgraduate,https://www.mrt.ac.lk/web/contacts-postgraduate-studies,Faculty of Information Technology,https://www.mrt.ac.lk/web/itfac,Director Postgraduate Studies,dpgs-it [at] uom.lk,+94 112 650301 - Ext. 8112
+program Catagory,program catagory link,faculty name,faculty link,faculty program ,faculty program links
+POSTGRADUATE STUDIES,https://www.mrt.ac.lk/web/epgs,Faculty of Engineering

@@ -34,10 +34,10 @@ for ap in AcademicProgram:
         ugdegreelinks=tree.xpath('//*[@id="block-scholarly-content"]/div/article/div/div/div/table/tbody/tr/td/a/@href')
         for ud,ul in itertools.zip_longest(undergraduatedegrees,ugdegreelinks):
           if not str(ul).startswith("http"):
-              row="Acadamic,Undergraduate,"+"https://www.mrt.ac.lk"+AcademicProgramlink[0]+","+ud+","+"https://www.mrt.ac.lk"+ul+"\n"
+              row="Academic,Undergraduate,"+"https://www.mrt.ac.lk"+AcademicProgramlink[0]+","+ud+","+"https://www.mrt.ac.lk"+ul+"\n"
               csv.write(row)
           else: 
-              row="Acadamic,Undergraduate,"+"https://www.mrt.ac.lk"+AcademicProgramlink[0]+","+ud+","+ul+"\n"
+              row="Academic,Undergraduate,"+"https://www.mrt.ac.lk"+AcademicProgramlink[0]+","+ud+","+ul+"\n"
               csv.write(row)
 
     if ap=='Postgraduate Degrees':
@@ -50,13 +50,13 @@ for ap in AcademicProgram:
           pglink=pg.xpath('.//@href')
           
           if len(pglink)==1 and not str(pglink).startswith('http') :
-              row="Acadamic,Postgraduate Degree,"+"https://www.mrt.ac.lk"+AcademicProgramlink[1]+","+pgcourse[0]+","+"https://www.mrt.ac.lk"+pglink[0]+"\n"
+              row="Academic,Postgraduate Degree,"+"https://www.mrt.ac.lk"+AcademicProgramlink[1]+","+pgcourse[0]+","+"https://www.mrt.ac.lk"+pglink[0]+"\n"
               csv.write(row)
           elif len(pglink)==1 and not str(pglink).startswith('http'): 
-              row="Acadamic,Postgraduate Degree,"+"https://www.mrt.ac.lk"+AcademicProgramlink[1]+","+pgcourse[0]+","+pglink[0]+"\n"
+              row="Academic,Postgraduate Degree,"+"https://www.mrt.ac.lk"+AcademicProgramlink[1]+","+pgcourse[0]+","+pglink[0]+"\n"
               csv.write(row)
           else:
-              row="Acadamic,Postgraduate Degree,"+"https://www.mrt.ac.lk"+AcademicProgramlink[1]+","+pgcourse[0]+",  \n"
+              row="Academic,Postgraduate Degree,"+"https://www.mrt.ac.lk"+AcademicProgramlink[1]+","+pgcourse[0]+",  \n"
               csv.write(row)
               
     if ap=='Postgraduate Diplomas':
@@ -64,17 +64,17 @@ for ap in AcademicProgram:
         page = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
         tree = html.fromstring(page.content)
         postgraduatediploma=tree.xpath('//*[contains(text(),"Diploma")]')
-        for pg in postgraduate:
+        for pg in postgraduatediploma:
           pdcourse= pg.xpath('.//text()')
           pdlink=pg.xpath('.//@href')
           
           if len(pdlink)==1 and not str(pdlink).startswith('http') :
-              row="Acadamic,Postgraduate Diploma,"+"https://www.mrt.ac.lk"+AcademicProgramlink[1]+","+pdcourse[0]+","+"https://www.mrt.ac.lk"+pdlink[0]+"\n"
+              row="Academic,Postgraduate Diploma,"+"https://www.mrt.ac.lk"+AcademicProgramlink[2]+","+pdcourse[0]+","+"https://www.mrt.ac.lk"+pdlink[0]+"\n"
               csv.write(row)
           elif len(pdlink)==1 and not str(pdlink).startswith('http'): 
-              row="Acadamic,Postgraduate Diploma,"+"https://www.mrt.ac.lk"+AcademicProgramlink[1]+","+pdcourse[0]+","+pdlink[0]+"\n"
+              row="Academic,Postgraduate Diploma,"+"https://www.mrt.ac.lk"+AcademicProgramlink[2]+","+pdcourse[0]+","+pdlink[0]+"\n"
               csv.write(row)
           else:
-              row="Acadamic,Postgraduate Diploma,"+"https://www.mrt.ac.lk"+AcademicProgramlink[1]+","+pdcourse[0]+",  \n"
+              row="Academic,Postgraduate Diploma,"+"https://www.mrt.ac.lk"+AcademicProgramlink[2]+","+pdcourse[0]+",  \n"
               csv.write(row)
 csv.close()
